@@ -36,24 +36,24 @@ def add_bg_from_local(image_file):
     )
 
 def chuyen_doi_du_lieu_thu():
-    thu=pd.read_excel('Files/excel/thu.xlsx')
-    thu.to_csv("Files/csv/thu.csv")
+    # thu=pd.read_excel('Files/excel/thu.xlsx')
+    # thu.to_csv("Files/csv/thu.csv")
     animal=pd.read_csv("Files/csv/thu.csv",index_col=0)
     return animal
 thu=chuyen_doi_du_lieu_thu()
 
 
 def chuyen_doi_du_lieu_chim():
-    chim=pd.read_excel('Files/excel/chim.xlsx')
-    chim.to_csv("Files/csv/chim.csv")
+    # chim=pd.read_excel('Files/excel/chim.xlsx')
+    # chim.to_csv("Files/csv/chim.csv")
     birds=pd.read_csv("Files/csv/chim.csv",index_col=0)
     return birds
 chim=chuyen_doi_du_lieu_chim()
 
 
 def chuyen_doi_du_lieu_bosat():
-    bosat=pd.read_excel('Files/excel/bosat.xlsx')
-    bosat.to_csv("Files/csv/bosat.csv")
+    # bosat=pd.read_excel('Files/excel/bosat.xlsx')
+    # bosat.to_csv("Files/csv/bosat.csv")
     bo_sat=pd.read_csv("Files/csv/bosat.csv",index_col=0)
     return bo_sat
 bo_sat=chuyen_doi_du_lieu_bosat()
@@ -178,8 +178,8 @@ def validate_email(email):
     else:
         return False
 def ve():
-    ve_1=pd.read_excel("Files/excel/tickets.xlsx")
-    ve_1.to_csv("Files/csv/ve.csv",index= False)
+    # ve_1=pd.read_excel("Files/excel/tickets.xlsx")
+    # ve_1.to_csv("Files/csv/ve.csv",index= False)
     ve=pd.read_csv("Files/csv/ve.csv")
     return ve
 dt_ve=ve()
