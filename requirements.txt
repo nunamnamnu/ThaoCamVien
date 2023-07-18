@@ -1,0 +1,8 @@
+streamlit
+pandas
+unidecode
+matplotlib
+seaborn
+qrcode
+Pillow
+openpyxl
